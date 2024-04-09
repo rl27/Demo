@@ -164,7 +164,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.AbilityLab.Demo
     Standalone: com.AbilityLab.Demo
-    iPhone: com.AbilityLab.AugmentedCane
+    iPhone: com.AbilityLab.Demo
   buildNumber:
     Bratwurst: 0
     Standalone: 0

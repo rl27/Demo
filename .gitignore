@@ -11,6 +11,9 @@
 /[Uu]ser[Ss]ettings/
 /.utmp*
 /Assets/XR/Temp*
+/ProjectSettings/ARCoreExtensionsProjectSettings.json
+apikey.txt
+apikey.txt.meta
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
