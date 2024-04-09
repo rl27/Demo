@@ -605,8 +605,8 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: Camera required for AR
-  locationUsageDescription: Required for Geo Anchors
+  cameraUsageDescription: Camera required for app
+  locationUsageDescription: Location required for navigation
   microphoneUsageDescription: 
   bluetoothUsageDescription: 
   macOSTargetOSVersion: 10.13.0
