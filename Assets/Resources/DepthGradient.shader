@@ -112,8 +112,8 @@ Shader "Unlit/DepthGradient"
                 float envDistance = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, i.texcoord).r;
 
                 fragment_output o;
-                float t = _Time;
-                if (abs((200*t % 14 - 7) - envDistance) < 0.1f) {
+                float t = _Time[1];
+                if (abs((8*t % 14 - 7) - envDistance) < 0.12f) {
                     o.color = float4(1,1,1,0);
                     return o;
                 }
