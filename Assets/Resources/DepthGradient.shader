@@ -113,7 +113,7 @@ Shader "Unlit/DepthGradient"
 
                 fragment_output o;
                 float t = _Time[1];
-                if (abs((8*t % 14)*(8*t % 14)/5 - envDistance) < 0.12f) {
+                if (abs((8*t % 14)*(8*t % 14)/4 - envDistance) < 0.12f) {
                     o.color = float4(1,1,1,0);
                     return o;
                 }
